@@ -1,5 +1,53 @@
-body{
-    margin: 0%;
-    padding: 0%;
+*{
+    box-sizing: border-box;
 }
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f6f5f7;
+    min-height: 100%;
+    margin: 10%;
+}
+
+.container{
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.22);
+}
+
+.main_card{
+    position: absolute;
+    height: 100%;
+    border: 1px solid;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#signIn_card{
+    max-width: 50%;
+    left: 0%;
+    top: 0%;
+}
+
+#signUp_card{
+    max-width: 50%;
+    right: 0%;
+    top: 0%;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
 
