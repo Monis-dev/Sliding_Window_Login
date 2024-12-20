@@ -9,6 +9,7 @@ body{
     background-color: #f6f5f7;
     min-height: 100%;
     margin: 10%;
+    font-family: "Baloo Bhaijaan 2", serif;
 }
 
 .container{
@@ -26,28 +27,76 @@ body{
 .main_card{
     position: absolute;
     height: 100%;
-    border: 1px solid;
+    
     letter-spacing: 1px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 #signIn_card{
     max-width: 50%;
     left: 0%;
     top: 0%;
+    z-index: 1;
 }
 
 #signUp_card{
     max-width: 50%;
     right: 0%;
     top: 0%;
+    z-index: -3;
 }
-
-
+input{
+    width: 80%;
+    padding: .5rem;
+    border-radius: .2rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,.15),
+                0 10px 10px rgba(0,0,0,.01);;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
 
 a{
     text-decoration: none;
+    color: inherit;
 }
+
+button{
+    background-color: #f6f5f7;
+    padding: .7rem 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: .5rem;
+    
+}
+
+.text_card{
+    position: absolute;
+    height: 100%;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
+
+#overlay_left{
+    max-width: 53%;
+    left: 0%;
+    top: 0%;
+    border-radius: 0 2rem 2rem 0;
+    z-index: -2;
+}
+
+#overlay_right{
+    max-width: 50%;
+    right: 0%;
+    top: 0%;
+    border-radius: 2rem 0 0 2rem ;
+    z-index: 1;
+    background-color: rgba(248, 255, 52);
+}
+
+
 
 
 
