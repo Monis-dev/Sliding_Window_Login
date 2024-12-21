@@ -12,6 +12,7 @@ wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=
 Sevillana&display=swap" rel="stylesheet">
 <link rel="stylesheet" href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Silding Window Login</title>
 </head>
 <body>
@@ -22,7 +23,7 @@ Sevillana&display=swap" rel="stylesheet">
             <input type="text" placeholder="Username" name="username">
             <input type="password" placeholder="Password" name="password"></br>
             <a href="#">Forgot your password?</a></br>
-            <a href="">
+            <a href="#">
                 <button class="in_button">Sign In</button>
             </a>
         </div>
@@ -33,31 +34,32 @@ Sevillana&display=swap" rel="stylesheet">
             <input type="email" placeholder="Email" name="email">
             <input type="password" placeholder="Password" name="password"></br>
             
-            <a href="">
+            <a href="#">
                 <button class="up_button">Sign Up</button>
             </a>
         </div>
         <div class="overlay_container">
-            <div id="overlay_left" class="text_card">
+            <div class="text_card overlay_left">
                 <h1>Hello and welcome!</h1>
                 <p>To experence the full featur of the website create your account.
                     If you already have an account sign in
                 </p>
-                <a href="">
-                    <button>Sign In</button>
+                <a href="#">
+                    <button class="change_left swap">Sign In</button>
                 </a>
             </div>
-            <div id="overlay_right" class="text_card">
+            <div class="text_card overlay_right">
                 <h1>Welcome back</h1>
                 <p>Hope you ejoy our website.
                     If you don't have an account create one to enjoy all the features
                 </p>
-                <a href="">
-                    <button>Sign Up</button>
+                <a href="#">
+                    <button class="change_right swap">Sign Up</button>
                 </a>
             </div>
         </div>
     </div>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../index.js"></script>
 </body>
 </html>
